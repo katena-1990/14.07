@@ -4,68 +4,32 @@
 5 9 2 3
 8 4 2 4
 17 -> такого числа в массиве нет*/
-
-int [,] InitMatrix(int m, int n)
+Console.Write("Введите строку:");
+int pos1 = Convert.ToInt32(Console.ReadLine()) - 1;
+Console.Write("Введите столбец:");
+int pos2 = Convert.ToInt32(Console.ReadLine()) - 1;
+int n = 5; 
+int m = 5; 
+Random random = new Random();
+int[,] matrix = new int[n, m];
+Console.WriteLine();
+for (int i = 0; i < matrix.GetLength(0); i++)
 {
-    int [,] matrix = new int[m,n];
-    Random randomizer = new Random();
-
-    for (int i = 0; i < m; i++)
+    for (int j = 0; j < matrix.GetLength(1); j++)
     {
-        for (int j = 0; j < n; j++)
-        {
-            matrix[i,j] = randomizer.Next(1,10);
-        }
+        matrix[i, j] = random.Next(0, 10);
+        Console.Write("{0} ", matrix[i, j]);
     }
-    return matrix;
+    Console.WriteLine();
 }
-
-void PrintMatrix(int[,] matrix)
+if (pos1 < 0 || pos1 > matrix.GetLength(0) - 1 || pos2 < 0 || pos2 > matrix.GetLength(1) - 1)
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j++)
-        {
-            Console.Write($"{matrix[i, j]}  ");
-        }
-        Console.WriteLine();
-    }
-}   
-Console.WriteLine("Введите число: ");
-int number = int.Parse(Console.ReadLine());
-
-bool Number(int[,] matrix, int number)
+    Console.WriteLine("Элемент не существует");
+}
+else
 {
-bool result = false ;   
-    for (int i = 0; i < matrix.GetLength(0); i ++)
-    {
-        for (int j = 0; j < matrix.GetLength(1); j ++)
-        {
-            if (matrix[i,j] == number)
-            {
-                result = true;
-            break;
-            }
-
-        }
-    }
-return result;
+    Console.WriteLine("Значение элемента массива = {0}", matrix[pos1, pos2]);
 }
 
-Console.WriteLine("Введите число m: ");
-int m = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите число n: ");
-int n = int.Parse(Console.ReadLine());
-int[,] matrix = InitMatrix(m, n);
-PrintMatrix(matrix);
-/*Console.WriteLine("Введите число: ");
-int number = int.Parse(Console.ReadLine());*/
-bool exist = Number(matrix, number);
-if(exist)
-{
-    Console.WriteLine($"Число {number} присутствует в массиве");
-}
-else 
-{ 
-    Console.WriteLine($"Число {number} не присутствует в массиве");
-}
+
+
