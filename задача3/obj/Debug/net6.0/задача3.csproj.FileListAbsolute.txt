@@ -1,0 +1,15 @@
+D:\курсы\Домашняя от 14.07\задача3\obj\Debug\net6.0\задача3.csproj.AssemblyReference.cache
+D:\курсы\Домашняя от 14.07\задача3\obj\Debug\net6.0\задача3.GeneratedMSBuildEditorConfig.editorconfig
+D:\курсы\Домашняя от 14.07\задача3\obj\Debug\net6.0\задача3.AssemblyInfoInputs.cache
+D:\курсы\Домашняя от 14.07\задача3\obj\Debug\net6.0\задача3.AssemblyInfo.cs
+D:\курсы\Домашняя от 14.07\задача3\obj\Debug\net6.0\задача3.csproj.CoreCompileInputs.cache
+D:\курсы\Домашняя от 14.07\задача3\bin\Debug\net6.0\задача3.exe
+D:\курсы\Домашняя от 14.07\задача3\bin\Debug\net6.0\задача3.deps.json
+D:\курсы\Домашняя от 14.07\задача3\bin\Debug\net6.0\задача3.runtimeconfig.json
+D:\курсы\Домашняя от 14.07\задача3\bin\Debug\net6.0\задача3.dll
+D:\курсы\Домашняя от 14.07\задача3\bin\Debug\net6.0\задача3.pdb
+D:\курсы\Домашняя от 14.07\задача3\obj\Debug\net6.0\задача3.dll
+D:\курсы\Домашняя от 14.07\задача3\obj\Debug\net6.0\refint\задача3.dll
+D:\курсы\Домашняя от 14.07\задача3\obj\Debug\net6.0\задача3.pdb
+D:\курсы\Домашняя от 14.07\задача3\obj\Debug\net6.0\задача3.genruntimeconfig.cache
+D:\курсы\Домашняя от 14.07\задача3\obj\Debug\net6.0\ref\задача3.dll
