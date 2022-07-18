@@ -5,9 +5,9 @@
 8 4 2 4
 17 -> такого числа в массиве нет*/
 Console.Write("Введите строку:");
-int pos1 = Convert.ToInt32(Console.ReadLine()) - 1;
+int pos1 = int.Parse(Console.ReadLine()) - 1;
 Console.Write("Введите столбец:");
-int pos2 = Convert.ToInt32(Console.ReadLine()) - 1;
+int pos2 = int.Parse(Console.ReadLine()) - 1;
 int n = 5; 
 int m = 5; 
 Random random = new Random();
